@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+h1 {
+  font-family: "Space Grotesk";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@layer components {
+
+  .navbar-item {
+      @apply relative flex items-center justify-center
+      h-12 w-auto
+    text-blue-300
+    hover:text-blue-950;
+  }
+
+  h1 {
+    @apply text-blue-950
+  }
+  
+}
